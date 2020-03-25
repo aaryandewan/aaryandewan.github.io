@@ -1,0 +1,147 @@
+body{
+	margin:0;
+	
+}
+
+
+#box2{
+	height:100%;
+	width:100%;
+	background-color: red
+	display:flex;
+	flex-direction: column;
+
+}
+
+.social{
+	
+}
+
+#facebook{
+	font-family: font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:20%;
+	font-size:250%;
+}
+
+#instagram{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-family: billabong, 'billabongregular';
+	width:100%;
+	height:20%;
+	font-size:250%;
+
+	background-color: white;
+}
+
+#github{
+	font-family: verdana,arial,sans-serif;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:20%;
+	font-size:250%;
+
+}
+
+#mail{
+	font-family: sans-serif;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:20%;
+	font-size:250%;
+}
+#phoneNo{
+	font-family: sans-serif;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:20%;
+	font-size:250%;
+}
+
+#facebook:hover{
+
+	color:white;
+	background-color: #3b5998;
+}
+
+#mail:hover{
+	background-color: orangered;
+}
+
+#instagram:hover{
+	background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+#github:hover{
+	background-color: #333;
+	color:white;
+}
+
+#phoneNo:hover{
+	background-color: #c6eb36;
+	cursor:pointer;
+}
+
+
+a{
+	color:black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'billabongregular';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

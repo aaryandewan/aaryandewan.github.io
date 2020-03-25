@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Contact me</title>
+	<link rel='stylesheet' href='contactStyle.css'>
+	</head>
+	<body>
+		<div id='box2'>
+			<a href='https://www.facebook.com/aaryan.dewan.547' target='_blank'><div class = 'social>' id='facebook'><div id='text'>facebook</div></div></a>
+
+
+			<a href='https://www.instagram.com/aaryandewan/' target='_blank'><div class = 'social>' id='instagram'>Instagram</div></a>
+
+
+			<a href='https://github.com/aaryandewan' target='_blank'><div class = 'social>' id='github'>GitHub</div></a>
+
+			<a href="mailto:dewanaaryan@gmail.com"><div id='mail'>E-mail</div></a>
+
+			<div class = 'social>' id='phoneNo'>Call Me</div>
+		</div>
+
+	<script>
+		var callBtn = document.getElementById('phoneNo');
+		callBtn.addEventListener('click', clicked);
+		function clicked(){
+			callBtn.textContent = '+91-9646566898';
+		}
+	</script>
+
+	</body>
+</html>
